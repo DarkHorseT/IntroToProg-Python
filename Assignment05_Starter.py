@@ -50,14 +50,14 @@ while (True):
         print("enter item and cost of item")
         listitem = str(input("item: "))
         listcost = str(input("cost: "))
-        dicRow = {listitem: listcost.strip()}
+        dic_row = {listitem: listcost.strip()}
         print(dic_row)
         continue
 
     # --- read file ----------------------------------------#
     elif (strChoice.strip() == "2"):
         print("current data")
-        print(dicRow)
+        print(dic_row)
 
     # --- remove item ----------------------------------------#
 
